@@ -12,3 +12,7 @@ node-sass
 react-router-dom
 
 Api do git
+
+nmp install
+
+nmp start
