@@ -13,6 +13,12 @@ react-router-dom
 
 Api do git
 
+---- para teste-----
+Baixe o codigo fonte
+
+execute os comandos abaixo!!
+
 nmp install
 
 nmp start
+
