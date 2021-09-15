@@ -1,0 +1,156 @@
+body {
+    font-family: Rajdhani, serif;
+  	margin: 0;
+  	text-decoration: none;
+}
+
+$color: #043833;
+
+p {
+
+color: $color;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+}
+
+.main-header {
+  background-color: #006940;
+  color: #fff;
+  overflow: hidden;
+  padding: 0.9rem;
+}
+
+.main-header h1 {
+  line-height: 1;
+  margin: 0;
+  font-weight: bold;
+  font-size: 26px;
+	
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 0.5rem;
+}
+
+.page-pesquisa {
+  text-align: center;
+}
+
+.page-pesquisa-input {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  border-radius:10px;	
+}
+.page-pesquisa-button {
+  border: 1px solid black;
+  background-color: #fff;
+  font-size: 20px;
+  background-color: #d9cece;
+  color: black;
+  font-size: 16px;
+  padding: 13px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.page-pesquisa-button:hover{
+
+  background-color: #B22222	;
+  color: white;
+
+}
+
+.user {
+  margin-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.user-repository {
+  color: black;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-info__avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  float: left;
+}
+
+.user-info__text {
+  text-decoration: none;
+  flex: 1;
+}
+
+.user-info__title {
+  font-size: 20px;
+}
+
+.user-info__title,.user-info__bio {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-info__stats {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+  display: flex;
+}
+
+.user-info__stats a {
+  color: #000;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.user-info__stat {
+  flex: 1;
+}
+
+.user-info__stat p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.footer{
+  color:white;	
+  margin-top: 1rem;
+  font-weight: bold;
+  background-color: #006940;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
