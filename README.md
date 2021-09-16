@@ -19,7 +19,7 @@ Baixe o codigo fonte
 
 execute os comandos abaixo!!
 
-nmp install
+npm install
 
-nmp start
+npm start
 
